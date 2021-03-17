@@ -13,6 +13,7 @@ Scenario: Register as an Affiliate userwith Cheque Payment Method
 	When User click on‘Register for an Affiliate Account’link 
 	And User fill affiliate form with below information 
 		|company|website|taxID|paymentMethod|
+		|Azadani Dojo|www.azadanidojo.us|12345|Azadani Dojo|
 	And User check on About us check box 
 	And User click on Continue button 
 	Then User should see a success message 
